@@ -1,7 +1,7 @@
-fastapi==0.115.0
-uvicorn==0.31.0
-google-genai==1.2.0
-tavily-python==0.5.0
-pydantic==2.9.2
-python-dotenv==1.0.1
-pillow==11.3.0
+fastapi
+uvicorn
+google-genai
+tavily-python
+pydantic
+python-dotenv
+pillow
