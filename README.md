@@ -1,11 +1,8 @@
-Here is a clean, professional, enterprise-grade `README.md` for your **FactOrNot** project. You can copy this directly and save it as `README.md` right at the root of your GitHub repository.
-
----
-
-```markdown
 # FactOrNot 🔍
 
 An enterprise-grade AI-powered news and fact-checking web application designed to instantly verify text claims and analyze image uploads with multi-source validation.
+
+---
 
 ## 🚀 Live Demo & Architecture
 * **Frontend:** Deployed live on Vercel
@@ -97,10 +94,15 @@ npm run dev
 
 ---
 
-## 📦 Deployment
+## 📦 Deployment & Configuration
 
-* **Backend (Render):** Configured via root directory with build command `pip install --only-binary=:all: -r requirements.txt` and start command `uvicorn main:app --host 0.0.0.0 --port 10000`.
-* **Frontend (Vercel):** Automatically builds and serves the Next.js static/dynamic pages linked to the live backend API endpoint (`/api/verify`).
+* **Backend (Render):**
+* Root Directory: *Leave blank*
+* Build Command: `pip install --only-binary=:all: -r requirements.txt`
+* Start Command: `uvicorn main:app --host 0.0.0.0 --port 10000`
+
+
+* **Frontend (Vercel):** Automatically builds and serves the Next.js static/dynamic pages linked to the live backend API endpoint (`https://fact-or-not-backend.onrender.com/api/verify`).
 
 ---
 
